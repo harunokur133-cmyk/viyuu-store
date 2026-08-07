@@ -1,207 +1,22 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>VIYUU | Premium Deri Cüzdan ve Çanta</title>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>VIYUU | Premium Leather</title>
 
-<style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-body{
-background:#0d0d0d;
-color:white;
-}
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:25px 10%;
-position:fixed;
-width:100%;
-background:rgba(0,0,0,.8);
-backdrop-filter:blur(12px);
-}
-
-.logo{
-font-size:32px;
-font-weight:700;
-letter-spacing:4px;
-color:#D4AF37;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:30px;
-transition:.3s;
-}
-
-nav a:hover{
-color:#D4AF37;
-}
-
-.hero{
-
-height:100vh;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-flex-direction:column;
-
-text-align:center;
-
-padding:20px;
-
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8));
-
-}
-
-.hero h1{
-
-font-size:65px;
-
-margin-bottom:20px;
-
-}
-
-.hero p{
-
-font-size:22px;
-
-max-width:700px;
-
-line-height:1.8;
-
-color:#dddddd;
-
-margin-bottom:40px;
-
-}
-
-button{
-
-background:#D4AF37;
-
-border:none;
-
-padding:18px 45px;
-
-font-size:18px;
-
-border-radius:50px;
-
-cursor:pointer;
-
-transition:.3s;
-
-}
-
-button:hover{
-
-transform:scale(1.05);
-
-}
-
-.products{
-
-padding:90px 10%;
-
-}
-
-.products h2{
-
-text-align:center;
-
-font-size:40px;
-
-margin-bottom:60px;
-
-}
-
-.grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
-gap:30px;
-
-}
-
-.card{
-
-background:#1a1a1a;
-
-border-radius:20px;
-
-padding:25px;
-
-text-align:center;
-
-transition:.3s;
-
-}
-
-.card:hover{
-
-transform:translateY(-10px);
-
-}
-
-.card img{
-
-width:100%;
-
-border-radius:15px;
-
-}
-
-.card h3{
-
-margin:20px 0;
-
-}
-
-.price{
-
-color:#D4AF37;
-
-font-size:25px;
-
-font-weight:bold;
-
-}
-
-footer{
-
-text-align:center;
-
-padding:35px;
-
-background:#111;
-
-margin-top:70px;
-
-color:#888;
-
-}
-
-</style>
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -209,13 +24,21 @@ color:#888;
 
 <header>
 
-<div class="logo">VIYUU</div>
+<div class="logo">
+
+VIYUU
+
+</div>
 
 <nav>
 
 <a href="#">Ana Sayfa</a>
 
-<a href="#">Ürünler</a>
+<a href="#">Cüzdanlar</a>
+
+<a href="#">Çantalar</a>
+
+<a href="#">Koleksiyon</a>
 
 <a href="#">Hakkımızda</a>
 
@@ -223,57 +46,113 @@ color:#888;
 
 </nav>
 
+<div class="icons">
+
+🛒
+
+👤
+
+</div>
+
 </header>
 
 <section class="hero">
 
-<h1>Luxury Leather Collection</h1>
+<div class="hero-content">
 
-<p>
+<p class="small-title">
 
-Hakiki deri cüzdanlar ve çantalar...
-
-Kaliteyi, zarafeti ve şıklığı tek yerde buluşturuyoruz.
+Luxury Leather Collection
 
 </p>
 
-<button>Alışverişe Başla</button>
+<h1>
+
+Crafted For<br>
+
+Everyday Elegance
+
+</h1>
+
+<p class="description">
+
+Hakiki deri cüzdan ve çantalar.
+
+Minimal tasarım.
+
+Üstün kalite.
+
+</p>
+
+<a href="#" class="button">
+
+KOLEKSİYONU KEŞFET
+
+</a>
+
+</div>
 
 </section>
 
-<section class="products">
+<section class="collections">
 
-<h2>Öne Çıkan Ürünler</h2>
+<h2>
 
-<div class="grid">
+Koleksiyonlar
+
+</h2>
+
+<div class="cards">
 
 <div class="card">
 
-<img src="https://picsum.photos/400/400?1">
+<h3>
 
-<h3>Premium Deri Cüzdan</h3>
+Premium Wallets
 
-<p class="price">₺1.299</p>
+</h3>
 
 </div>
 
 <div class="card">
 
-<img src="https://picsum.photos/400/400?2">
+<h3>
 
-<h3>Luxury Deri Çanta</h3>
+Luxury Bags
 
-<p class="price">₺3.499</p>
+</h3>
 
 </div>
 
-<div class="card">
+</div>
 
-<img src="https://picsum.photos/400/400?3">
+</section>
 
-<h3>Classic Wallet</h3>
+<section class="why">
 
-<p class="price">₺999</p>
+<h2>
+
+Neden VIYUU?
+
+</h2>
+
+<div class="features">
+
+<div>
+
+Hakiki Deri
+
+</div>
+
+<div>
+
+El İşçiliği
+
+</div>
+
+<div>
+
+Ömür Boyu Kalite
 
 </div>
 
@@ -283,9 +162,10 @@ Kaliteyi, zarafeti ve şıklığı tek yerde buluşturuyoruz.
 
 <footer>
 
-© 2026 VIYUU • Premium Leather
+© 2026 VIYUU
 
 </footer>
 
 </body>
+
 </html>
